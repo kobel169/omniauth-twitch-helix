@@ -7,9 +7,9 @@ module OmniAuth
       option :name, 'twitch'
 
       option :client_options, {
-        site: 'https://api.twitch.tv',
-        authorize_url: '/kraken/oauth2/authorize',
-        token_url: '/kraken/oauth2/token'
+        site: 'https://id.twitch.tv',
+        authorize_url: '/oauth2/authorize',
+        token_url: '/oauth2/token'
       }
 
       option :authorize_params, {}
